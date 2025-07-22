@@ -13,8 +13,10 @@
 # print(lambda_calculator.divide(100, 100))
 
 #4
-import string_operations
-print(string_operations.reverse_string("OHHH yeah"))
-print(string_operations.capitalize_string("OHHH yeah"))
-print(string_operations.lowercase_string("OHHH yeah"))
-print(string_operations.uppercase_string("OHHH yeah"))
+# import string_operations
+# print(string_operations.reverse_string("OHHH yeah"))
+# print(string_operations.capitalize_string("OHHH yeah"))
+# print(string_operations.lowercase_string("OHHH yeah"))
+# print(string_operations.uppercase_string("OHHH yeah"))
+
+#5
