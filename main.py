@@ -37,6 +37,15 @@
 # print("Uppercase:", string_operations.uppercase_string(sample_string))
 
 #6
-grades = [55, 70, 65, 40, 90, 85, 50, 77]
-passed_with_bonus = list(map(lambda x: x*1.05, filter(lambda x: x >= 60, grades)))
-print(passed_with_bonus)
+# grades = [55, 70, 65, 40, 90, 85, 50, 77]
+# passed_with_bonus = list(map(lambda x: x*1.05, filter(lambda x: x >= 60, grades)))
+# print(passed_with_bonus)
+
+#7
+children = [ {"name": "Alice", "age": 2, "height": 95},
+              {"name": "Bob", "age": 4, "height": 105},
+              {"name": "Charlie", "age": 3, "height": 110},
+              {"name": "David", "age": 5, "height": 102},
+              {"name": "Eve", "age": 6, "height": 99} ]
+eligible_children = (child for child in children if child["age"] >= 3 and child["height"] >= 100)
+print(list(eligible_children))
